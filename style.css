@@ -1,0 +1,30 @@
+h1 {
+    color:blueviolet
+} 
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    background-color: blue;
+    display: flex; 
+    flex-direction: column;
+    justify-content: baseline;
+} 
+.grid {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+p,h2 {
+    text-align: center;
+} 
+.footor {
+    display: flex;
+    justify-content: flex-end;
+} 
+body {
+    background-color: #700080;
+}
